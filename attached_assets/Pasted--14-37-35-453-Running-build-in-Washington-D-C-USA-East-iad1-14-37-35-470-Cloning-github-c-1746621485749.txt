@@ -1,0 +1,38 @@
+[14:37:35.453] Running build in Washington, D.C., USA (East) – iad1
+[14:37:35.470] Cloning github.com/williamfolle/WebAutomate (Branch: main, Commit: b4b8834)
+[14:37:35.717] Previous build caches not available
+[14:37:35.899] Cloning completed: 429.000ms
+[14:37:36.254] Running "vercel build"
+[14:37:36.625] Vercel CLI 41.7.2
+[14:37:37.311] Running "install" command: `npm install`...
+[14:37:46.982] 
+[14:37:46.983] added 465 packages, and audited 466 packages in 9s
+[14:37:46.984] 
+[14:37:46.984] 64 packages are looking for funding
+[14:37:46.984]   run `npm fund` for details
+[14:37:46.999] 
+[14:37:46.999] 2 moderate severity vulnerabilities
+[14:37:46.999] 
+[14:37:46.999] To address all issues, run:
+[14:37:47.000]   npm audit fix
+[14:37:47.000] 
+[14:37:47.000] Run `npm audit` for details.
+[14:37:47.281] 
+[14:37:47.282] > rest-express@1.0.0 build
+[14:37:47.282] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[14:37:47.283] 
+[14:37:47.498] [31mfailed to load config from /vercel/path0/vite.config.ts[39m
+[14:37:47.499] [31merror during build:
+[14:37:47.500] Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@vitejs/plugin-react' imported from /vercel/path0/vite.config.ts.timestamp-1746621467495-7dcbd8a2f082e.mjs
+[14:37:47.500]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+[14:37:47.500]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[14:37:47.500]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[14:37:47.500]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[14:37:47.500]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+[14:37:47.500]     at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+[14:37:47.500]     at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+[14:37:47.500]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+[14:37:47.500]     at ModuleJob._link (node:internal/modules/esm/module_job:135:49)[39m
+[14:37:47.514] Error: Command "npm run build" exited with 1
+[14:37:48.176] 
+[14:37:51.461] Exiting build container

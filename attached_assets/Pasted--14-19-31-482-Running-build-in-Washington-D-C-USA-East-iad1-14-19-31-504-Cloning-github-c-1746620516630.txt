@@ -1,0 +1,65 @@
+[14:19:31.482] Running build in Washington, D.C., USA (East) – iad1
+[14:19:31.504] Cloning github.com/williamfolle/WebAutomate (Branch: main, Commit: acd12cb)
+[14:19:31.698] Previous build caches not available
+[14:19:31.998] Cloning completed: 494.000ms
+[14:19:32.334] Running "vercel build"
+[14:19:32.728] Vercel CLI 41.7.2
+[14:19:32.846] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[14:19:33.398] Installing dependencies...
+[14:19:38.418] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[14:19:38.441] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[14:19:43.764] 
+[14:19:43.764] added 541 packages in 10s
+[14:19:43.764] 
+[14:19:43.765] 72 packages are looking for funding
+[14:19:43.765]   run `npm fund` for details
+[14:19:43.825] Running "npm run build"
+[14:19:43.939] 
+[14:19:43.939] > rest-express@1.0.0 build
+[14:19:43.939] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[14:19:43.940] 
+[14:19:44.146] ▲ [WARNING] Duplicate key "build" in object literal [duplicate-object-key]
+[14:19:44.147] 
+[14:19:44.147]     vite.config.ts:31:2:
+[14:19:44.149]       31 │   build: {
+[14:19:44.149]          ╵   ~~~~~
+[14:19:44.149] 
+[14:19:44.149]   The original key "build" is here:
+[14:19:44.150] 
+[14:19:44.150]     vite.config.ts:27:2:
+[14:19:44.150]       27 │   build: {
+[14:19:44.150]          ╵   ~~~~~
+[14:19:44.150] 
+[14:19:44.197] [36mvite v5.4.14 [32mbuilding for production...[36m[39m
+[14:19:44.247] transforming...
+[14:19:44.526] Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+[14:19:44.526]   npx update-browserslist-db@latest
+[14:19:44.526]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[14:19:48.082] [32m✓[39m 1667 modules transformed.
+[14:19:48.360] rendering chunks...
+[14:19:48.367] computing gzip size...
+[14:19:48.381] [2mdist/[22m[32mindex.html                    [39m[1m[2m    1.37 kB[22m[1m[22m[2m │ gzip:   0.64 kB[22m
+[14:19:48.381] [2mdist/[22m[2massets/[22m[32mwpb-logo-9NjqxCgm.png  [39m[1m[2m1,431.56 kB[22m[1m[22m
+[14:19:48.382] [2mdist/[22m[2massets/[22m[36mindex-Sg5W4kNU.js      [39m[1m[2m  343.31 kB[22m[1m[22m[2m │ gzip: 100.90 kB[22m
+[14:19:48.382] [32m✓ built in 4.16s[39m
+[14:19:48.412] ▲ [WARNING] Duplicate key "build" in object literal [duplicate-object-key]
+[14:19:48.413] 
+[14:19:48.413]     vite.config.ts:31:2:
+[14:19:48.413]       31 │   build: {
+[14:19:48.413]          ╵   ~~~~~
+[14:19:48.413] 
+[14:19:48.413]   The original key "build" is here:
+[14:19:48.414] 
+[14:19:48.414]     vite.config.ts:27:2:
+[14:19:48.414]       27 │   build: {
+[14:19:48.414]          ╵   ~~~~~
+[14:19:48.414] 
+[14:19:48.417] 1 warning
+[14:19:48.417] 
+[14:19:48.417]   dist/index.js  18.5kb
+[14:19:48.417] 
+[14:19:48.417] ⚡ Done in 7ms
+[14:19:48.434] Error: No Output Directory named "public" found after the Build completed. You can configure the Output Directory in your Project Settings.
+[14:19:48.434] Learn More: https://vercel.link/missing-public-directory
+[14:19:48.655] 
+[14:19:51.390] Exiting build container
