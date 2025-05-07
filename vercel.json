@@ -3,7 +3,7 @@
     { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/(.*)", "destination": "/" }
   ],
-  "buildCommand": "npm run build",
+  "buildCommand": "node build-vercel.js",
   "outputDirectory": "dist",
   "installCommand": "npm install"
 }
